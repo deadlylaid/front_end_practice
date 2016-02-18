@@ -11,7 +11,7 @@
 .header::after{
 	clear:both;
 }
-.container .hamberger{
+.header .hamberger{
 	position:absolute;
 	top:34px;
 	left:30px;
@@ -21,7 +21,7 @@
 	width: 13px;
 }
 
-.container .logo{
+.header .logo{
 	position: absolute;
 	left: 81px;
   	top: 30px;
@@ -31,7 +31,53 @@
 
 }
 
-.header_svg_logo_aware_svg {
+
+.header .icon-bag{
+	position: absolute;
+	left:804px;
+	top:32px;
+	background: url(../image/aware-website-assets/header/Buttons/svg-icon-bag.svg);
+	width: 16px;
+	height: 16px;
+}
+
+.header .bag-circle{
+	position:absolute;
+	right:-10px;
+	bottom:10px;
+	background: url(../image/aware-website-assets/header//Buttons/notice/bg-circle.svg);
+	width: 16px;
+	height: 16px;
+}
+
+.bag-circle .number{
+	position: absolute;
+	left:5px;
+	bottom:4px;
+	background: url(../image/aware-website-assets/header/Buttons/notice/3.svg);
+	width: 6px;
+	height: 8px;
+}
+
+.header .icon-face{
+	position: absolute;
+	left: 860px;
+	top:33px;
+	background: url(../image/aware-website-assets/header/Buttons/svg-icon-face.svg);
+	width: 14px;
+	height: 15px;
+}
+.header .icon-search{
+	position: absolute;
+	left: 914px;
+	top:32px;
+	background: url(../image/aware-website-assets/header/Buttons/svg-icon-search.svg);
+	width: 16px;
+	height: 16px;
+}
+
+
+/*header_svg_logo_aware_svg {
   background-color: rgb(31, 75, 165);
   position: absolute;
   left: 81px;
@@ -40,3 +86,4 @@
   height: 20px;
   z-index: 4;
 }
+*/
