@@ -1,0 +1,42 @@
+@import "reset.css";
+@import "common.css";
+@import "grid-system.css";
+
+
+.header{
+	position: relative;
+	background: #fff;
+	height: 80px;
+}
+.header::after{
+	clear:both;
+}
+.container .hamberger{
+	position:absolute;
+	top:34px;
+	left:30px;
+	float: left;
+	background: url(../image/aware-website-assets/header/svg-icon-hamberger.svg);
+	height: 13px;
+	width: 13px;
+}
+
+.container .logo{
+	position: absolute;
+	left: 81px;
+  	top: 30px;
+	background: url(../image/aware-website-assets/header/svg-logo-aware.svg);	
+  	width: 95px;
+  	height: 19px;
+
+}
+
+.header_svg_logo_aware_svg {
+  background-color: rgb(31, 75, 165);
+  position: absolute;
+  left: 81px;
+  top: 30px;
+  width: 97px;
+  height: 20px;
+  z-index: 4;
+}

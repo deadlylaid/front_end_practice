@@ -1,0 +1,42 @@
+.container{
+	position: relative;
+	z-index: 10;
+	
+	margin:0 auto;
+	width: 960px;
+	height: 2300px;
+}
+.grid::before{
+	opacity: 0.6;
+	position: absolute;
+	z-index: 10000;
+	width: 960px;
+	height: 2300px;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	content: '';
+	background: url(../image/pattern-line.png);
+}
+/*.grid-pattern{
+	position: relative;
+	z-index: 10;
+	background: url(../image/pattern-line.png);
+}
+*/
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+빈공간 밀어내는 div들
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+.push-1{margin-left:120px;}
+.push-2{margin-left:240px;}
+.push-3{margin-left:360px;}
+.push-4{margin-left:480px;}
+.push-5{margin-left:600px;}
+.push-6{margin-left:720px;}
+.push-7{margin-left:840px;}
+.push-8{margin-left:960px;}
+.push-9{margin-left:1080px;}
+.push-10{margin-left:1200px;}
+.push-11{margin-left:1320px;}
+.push-12{margin-left:1440px;}
