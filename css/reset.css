@@ -2,6 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/*reset.css는 초기에 설정되어야할 웹브라우저의 기본값들을 설정합니다.*/
+/* 이 설정이 되어있어야 html상에 디자인 된 페이지와 실제 웹브라우저에
+업로된 페이지가 오차없이 잎치합니다.*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

@@ -1,21 +1,31 @@
 .container{
 	position: relative;
-	z-index: 10;
-	
+	/* z-index: 10; */
 	margin:0 auto;
 	width: 960px;
-	height: 2300px;
+	min-height: 100vh;
 }
-.grid::before{
+/*.container.grid::before{
 	opacity: 0.6;
 	position: absolute;
 	z-index: 10000;
 	width: 960px;
-	height: 2300px;
+	min-height: 100%;콘테이너에서 상속
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
 	content: '';
+	background: url(../image/pattern-line.png);
+}*/
+
+.container.grid-pattern::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	min-height: 100%;
+	left: 0;
+	top: 0;
+	z-index: -1000;
 	background: url(../image/pattern-line.png);
 }
 /*.grid-pattern{
@@ -39,7 +49,7 @@
 
 /*width:(80px * 1 + 20px * (1-1));*/
 .col-1{width: 80px;}
-.col-2{ width:  180px;}
+.col-2{width: 180px;}
 .col-3{ width: 280px;}
 .col-4{width:380px;}
 .col-5{width: 480px;}
@@ -56,7 +66,7 @@
 .push-2{margin-left:240px;}
 .push-3{margin-left:360px;}
 .push-4{margin-left:480px;}
-.push-5{margin-left:600px; ;}
+.push-5{margin-left:600px;}
 .push-6{margin-left:720px;}
 .push-7{margin-left:840px;}
 .push-8{margin-left:960px;}

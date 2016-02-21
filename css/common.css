@@ -24,3 +24,8 @@ width값을 boder까지 포함해서 계산
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 }
+
+.ir{
+	overflow: hidden;
+	text-indent: -999em;
+}

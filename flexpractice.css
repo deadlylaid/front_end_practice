@@ -1,0 +1,13 @@
+.main-flex{
+	display: flex;
+	border: 2px solid black;
+	width: 300px;
+	
+
+}
+.slide-photo{
+	flex-grow:1;
+	width: 100px;
+	background: yellow;
+	border: 2px solid red;
+}
